@@ -21,8 +21,8 @@ server:
 spring:
   application:
     name: bapfopm-pfpsmas-zuul
-  zipkin: #开启链路追踪
-    base-url: http://10.1.8.15:7321
+  #zipkin: #开启链路追踪
+    #base-url: http://10.1.8.15:7321
 zuul: 
   host: #ZUUL 超时设置 路由方式为URL时生效（当前无效）
     max-per-route-connections: 1000
